@@ -1,0 +1,2 @@
+logtrace4consumer=com.synda.traceid.LogTraceConsumerDubboFilter
+logtrace4Provider=com.synda.traceid.LogTraceProviderDubboFilter
