@@ -9,8 +9,12 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>dubbo-provider1</module>
+        <module>dubbo-api</module>
+        <module>dubbo-consumer1</module>
         <module>dubbo-filter-traceid</module>
+        <module>dubbo-provider1</module>
+        <module>dubbospi-demo</module>
+        <module>javaspi-demo</module>
     </modules>
 
     <properties>

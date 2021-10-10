@@ -14,6 +14,13 @@ public class DubboSpiTest {
         people.sayHello();
         People American = extensionLoader.getExtension("American");
         American.sayHello();
+
+        //adaptive
+        People adaptiveExtension = extensionLoader.getAdaptiveExtension();
+        adaptiveExtension.sayHello();
+        ((AdaptivePeople) adaptiveExtension).setNation("American");
+        adaptiveExtension.sayHello();
+
     }
 
 }

@@ -1,6 +1,7 @@
 package com.synda.traceid;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.dubbo.common.constants.CommonConstants;
 import org.apache.dubbo.common.extension.Activate;
 import org.apache.dubbo.rpc.*;
 import org.slf4j.Logger;
@@ -14,7 +15,7 @@ import org.slf4j.MDC;
  * Created by lsd
  * 2021-09-28 00:32
  */
-@Activate(group = {"provider"}, order = -1)
+@Activate(group = {CommonConstants.PROVIDER}, order = -1)
 public class LogTraceProviderDubboFilter implements Filter {
 
     private static final Logger log = LoggerFactory.getLogger(LogTraceProviderDubboFilter.class);

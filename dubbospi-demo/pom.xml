@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.synda.dubbo</groupId>
-    <artifactId>dubbo-demo-spi</artifactId>
+    <artifactId>dubbospi-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
