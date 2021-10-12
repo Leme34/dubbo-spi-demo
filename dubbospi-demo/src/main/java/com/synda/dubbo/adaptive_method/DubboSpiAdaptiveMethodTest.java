@@ -4,6 +4,8 @@ import org.apache.dubbo.common.URL;
 import org.apache.dubbo.common.extension.ExtensionLoader;
 
 /**
+ * Adaptive机制 能根据 URL 的传参决定使用哪一个具体 SPI 扩展实现
+ *
  * @author synda
  * @date 2021/10/4
  */

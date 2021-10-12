@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
  * Created by lsd
  * 2021-09-28 00:32
  */
-@Activate(group = {CommonConstants.CONSUMER}, order = -1)
+@Activate(group = {CommonConstants.CONSUMER}, order = -1)  //Activate机制 能根据 group 激活一批具体 SPI 扩展实现
 public class LogTraceConsumerDubboFilter implements Filter {
 
     private static final Logger log = LoggerFactory.getLogger(LogTraceConsumerDubboFilter.class);
